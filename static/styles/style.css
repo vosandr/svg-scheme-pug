@@ -1,0 +1,17 @@
+.scheme {
+	height: 393px;
+	width: 738px;
+	margin: 0 auto;
+	position: relative;
+}
+.scheme svg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 393px;
+	width: 738px;
+}
+.scheme polygon {
+	fill: #FFDBA4;
+	cursor: pointer;
+}
