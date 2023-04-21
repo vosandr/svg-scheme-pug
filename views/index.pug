@@ -1,8 +1,14 @@
 doctype html
 html 
-    head 
-        style
-            link(rel="stylesheet" href="/style.css")
+    head
+        title Заголовок страницы
+        link(type="Image/x-icon" href="/favicon.png" rel="icon")
+        link(rel="stylesheet" href="/style.css")
     body
-        
+        .scheme
+            img(src="/demo/scheme.png" alt="")
+                svg
+                    polygon(data-id="1" points="52,270 93,305 151,305 151,364 137,364 52,342 17,311")
+                    polygon(data-id="2" points="92,224 123,252 123,302 93,302 53,268")
+                    polygon(data-id="3" points="137,169 168,197 124,249 93,223")
         script(src="./script.js")
